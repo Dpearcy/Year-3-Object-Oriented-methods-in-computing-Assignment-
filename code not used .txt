@@ -1,0 +1,28 @@
+	cout << endl;
+	cout << endl;
+	CVactor3* Cvactor3 = new CVactor3();
+	int getvalue5 = 0;
+	MAP<CVactor3> * M_CVator3 = new MAP<CVactor3>();
+	cout << "coder bult class tamplate   adding " << endl;//// not sure it works
+	for (int i = 0; i < 11; i++)
+	{
+	 M_CVator3->Add_value(*Cvactor3);
+	Cvactor3++;
+	cout << &M_CVator3->Get_value(getvalue5);
+	getvalue5++;
+	}
+	cout << endl;
+	CVactor3*  KIllvalue4 = new CVactor3(3,3,3);
+	cout << "float tamplate   removing " << endl;
+	  M_CVator3->pop_value(*KIllvalue4);
+	  delete(KIllvalue4);
+	KIllvalue4 = new CVactor3(8,8,8);
+	cout << endl;
+	 M_CVator3->pop_value(*KIllvalue4);
+	 delete(KIllvalue4);
+	KIllvalue4 = new CVactor3(11,11,11);
+	cout << endl;
+	 M_CVator3->pop_value(*KIllvalue4)/
+	 delete(KIllvalue4);
+	delete(M_CVator3);
+//// not work not used need to look someone elses code after assginment is marked  needs oparters ////
